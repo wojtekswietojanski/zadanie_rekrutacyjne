@@ -10,7 +10,7 @@ services:
   web:
     image: enigma-rekr-nginx:0.1
     build:
-      context: ./nginx
+      context: .
       dockerfile: Dockerfile
     ports:
       - "443:443"
